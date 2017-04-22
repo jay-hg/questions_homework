@@ -1,4 +1,7 @@
 2-6网上有更好的答案，思路：1+2+...+9 = 45；1*2*3×.....*9 = 某个数 通过这个来判断成立与否
-test github
-#test line
-reset test
+第三章（数组）总结：
+strlen和sizeof的区别？判断是不是字母？
+1.sizeof返回一整个数组的大小，strlen返回/0之前的字符数。
+2.#include <ctype.h> 有个函数isalpha，类似的还有isdigit,isprint等。
+3.3-6书上答案写得很巧妙，你学会了吗？
+	s[(p+i)%n] 如果p+i>n，又从头开始
